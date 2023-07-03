@@ -25,22 +25,27 @@
       "enablePullDownRefresh": false
     }
   }],
-  "subPackages": [
-    {
-      "root": "subpkg",
-      "pages": [
-        
+  "subPackages": [{
+    "root": "subpkg",
+    "pages": [
+
       {
-                    "path" : "goods_detail/goods_detail",
-                    "style" :                                                                                    
-                {
-                    "navigationBarTitleText": "",
-                    "enablePullDownRefresh": false
-                }
-                
-                }
-                ,{
-                    "path" : "goods_list/goods_list",
+        "path": "goods_detail/goods_detail",
+        "style": {
+          "navigationBarTitleText": "",
+          "enablePullDownRefresh": false
+        }
+
+      }, {
+        "path": "goods_list/goods_list",
+        "style": {
+          "navigationBarTitleText": "",
+          "enablePullDownRefresh": false
+        }
+
+      }
+        ,{
+                    "path" : "search/search",
                     "style" :                                                                                    
                 {
                     "navigationBarTitleText": "",
@@ -49,8 +54,7 @@
                 
                 }
             ]
-    }
-  ],
+  }],
   "globalStyle": {
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "uni-app",
@@ -62,8 +66,7 @@
   },
   "tabBar": {
     "selectedColor": "#c00000",
-    "list": [
-      {
+    "list": [{
         "pagePath": "pages/home/home",
         "text": "首页",
         "iconPath": "static/tab_icons/home.png",
